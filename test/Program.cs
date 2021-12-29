@@ -4,7 +4,7 @@ namespace test
 {
     internal class Program
     {
-        public const int Branch = 1;
+        public const int Branch = 0;
         
         public static void Main(string[] args)
         {
