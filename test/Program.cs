@@ -11,10 +11,19 @@ namespace test
             Console.Out.WriteLine($"Is this branch {Branch}?");
             if (Branch == 1)
             {
-                Console.Out.WriteLine("Yes, it's brach 1.");
+                Console.Out.WriteLine("Yes, it's branch 1.");
+            }
+            else
+            {
+                Console.Out.WriteLine("No, it isn't branch 1.");
             }
 
             Console.Out.WriteLine("Br1 updated.");
+        }
+
+        public int func()
+        {
+            return 0;
         }
     }
 }
