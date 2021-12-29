@@ -18,5 +18,10 @@ namespace test
                 Console.Out.WriteLine("No, it isn't branch 1.");
             }
         }
+
+        public int func()
+        {
+            return 0;
+        }
     }
 }
