@@ -13,6 +13,8 @@ namespace test
             {
                 Console.Out.WriteLine("Yes, it's brach 1.");
             }
+
+            Console.Out.WriteLine("Br1 updated.");
         }
     }
 }
